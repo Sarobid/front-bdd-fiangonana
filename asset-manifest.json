@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/front-bdd-fiangonana/front/static/css/main.05f30fe0.css",
-    "main.js": "/front-bdd-fiangonana/front/static/js/main.9fc6a3b2.js",
-    "static/media/logo-ct-dark.png": "/front-bdd-fiangonana/front/static/media/logo-ct-dark.3dcf171c3609a9b9f21f.png",
-    "static/media/primeicons.svg": "/front-bdd-fiangonana/front/static/media/primeicons.6ed59f962963a4a73af2.svg",
-    "static/media/nucleo-icons.svg": "/front-bdd-fiangonana/front/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
-    "static/media/primeicons.eot": "/front-bdd-fiangonana/front/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
-    "static/media/primeicons.woff": "/front-bdd-fiangonana/front/static/media/primeicons.8931fda1930c3bd21e96.woff",
-    "static/media/primeicons.ttf": "/front-bdd-fiangonana/front/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
-    "static/media/primeicons.woff2": "/front-bdd-fiangonana/front/static/media/primeicons.024b32cc7bf399b1a847.woff2",
-    "static/media/nucleo-icons.eot": "/front-bdd-fiangonana/front/static/media/nucleo-icons.19abb5402a664606b14c.eot",
-    "static/media/nucleo-icons.ttf": "/front-bdd-fiangonana/front/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
-    "static/media/team-2.jpg": "/front-bdd-fiangonana/front/static/media/team-2.e725aef8c892cb21f262.jpg",
-    "static/media/nucleo-icons.woff": "/front-bdd-fiangonana/front/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
-    "static/media/nucleo-icons.woff2": "/front-bdd-fiangonana/front/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
-    "static/media/logo-spotify.svg": "/front-bdd-fiangonana/front/static/media/logo-spotify.e83cf56c9d99a1fdf59e8deb58bbe470.svg",
-    "index.html": "/front-bdd-fiangonana/front/index.html"
+    "main.css": "/front-bdd-fiangonana/static/css/main.c4776bf7.css",
+    "main.js": "/front-bdd-fiangonana/static/js/main.d3dd626d.js",
+    "static/media/logo-ct-dark.png": "/front-bdd-fiangonana/static/media/logo-ct-dark.3dcf171c3609a9b9f21f.png",
+    "static/media/primeicons.svg": "/front-bdd-fiangonana/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/nucleo-icons.svg": "/front-bdd-fiangonana/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
+    "static/media/primeicons.eot": "/front-bdd-fiangonana/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/front-bdd-fiangonana/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/front-bdd-fiangonana/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/primeicons.woff2": "/front-bdd-fiangonana/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "static/media/nucleo-icons.eot": "/front-bdd-fiangonana/static/media/nucleo-icons.19abb5402a664606b14c.eot",
+    "static/media/nucleo-icons.ttf": "/front-bdd-fiangonana/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
+    "static/media/team-2.jpg": "/front-bdd-fiangonana/static/media/team-2.e725aef8c892cb21f262.jpg",
+    "static/media/nucleo-icons.woff": "/front-bdd-fiangonana/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
+    "static/media/nucleo-icons.woff2": "/front-bdd-fiangonana/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
+    "static/media/logo-spotify.svg": "/front-bdd-fiangonana/static/media/logo-spotify.e83cf56c9d99a1fdf59e8deb58bbe470.svg",
+    "index.html": "/front-bdd-fiangonana/index.html"
   },
   "entrypoints": [
-    "static/css/main.05f30fe0.css",
-    "static/js/main.9fc6a3b2.js"
+    "static/css/main.c4776bf7.css",
+    "static/js/main.d3dd626d.js"
   ]
 }
