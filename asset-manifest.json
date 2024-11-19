@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/front-bdd-fiangonana/static/css/main.c4776bf7.css",
-    "main.js": "/front-bdd-fiangonana/static/js/main.d3dd626d.js",
+    "main.css": "/front-bdd-fiangonana/static/css/main.96c4da84.css",
+    "main.js": "/front-bdd-fiangonana/static/js/main.7c47b85f.js",
     "static/media/logo-ct-dark.png": "/front-bdd-fiangonana/static/media/logo-ct-dark.3dcf171c3609a9b9f21f.png",
     "static/media/primeicons.svg": "/front-bdd-fiangonana/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/nucleo-icons.svg": "/front-bdd-fiangonana/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
@@ -18,7 +18,7 @@
     "index.html": "/front-bdd-fiangonana/index.html"
   },
   "entrypoints": [
-    "static/css/main.c4776bf7.css",
-    "static/js/main.d3dd626d.js"
+    "static/css/main.96c4da84.css",
+    "static/js/main.7c47b85f.js"
   ]
 }
