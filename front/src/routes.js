@@ -1,19 +1,38 @@
 import ArgonBox from "components/ArgonBox";
-import Distribution from "layouts/distribution/Distribution";
-import StatistiqueDistribution from "layouts/distribution/StatistiqueDistribution";
-import GestionMpiangona from "layouts/Mpiangona/GestionMpiangona";
+import ListDekonina from "layouts/distribution/ListDekonina";
+import ListeFiche from "layouts/distribution/ListeFiche";
 import StatistiqueMpiangona from "layouts/Mpiangona/StatistiqueMpiangona";
 
 const routes = [
+  // {
+  //   type: "route",
+  //   name: "Statistique Distribution",
+  //   key: "dashboard",
+  //   route: "/dashboard",
+  //   icon: (
+  //     <ArgonBox component="i" color="warning" fontSize="14px" className="ni ni-chart-bar-32" />
+  //   ),
+  //   component: <StatistiqueDistribution />,
+  // },
   {
     type: "route",
-    name: "Statistique Distribution",
+    name: "Repartition dekonina",
     key: "dashboard",
     route: "/dashboard",
     icon: (
       <ArgonBox component="i" color="warning" fontSize="14px" className="ni ni-chart-bar-32" />
     ),
-    component: <StatistiqueDistribution />,
+    component: <ListDekonina />,
+  },
+  {
+    type: "route",
+    name: "Repartition Fiche",
+    key: "Repartition-Fiche",
+    route: "/Repartition-Fiche",
+    icon: (
+      <ArgonBox component="i" color="warning" fontSize="14px" className="ni ni-chart-bar-32" />
+    ),
+    component: <ListeFiche />,
   },
   {
     type: "route",
@@ -25,26 +44,26 @@ const routes = [
     ),
     component: <StatistiqueMpiangona />,
   },
-  {
-    type: "route",
-    name: "Distribution Dekonina",
-    key: "Distribution",
-    route: "/Distribution",
-    icon: (
-      <ArgonBox component="i" color="warning" fontSize="14px" className="ni ni-settings" />
-    ),
-    component: <Distribution />,
-  },
-  {
-    type: "route",
-    name: "Gestion Mpiangona",
-    key: "Gestion-Mpiangona",
-    route: "/Gestion-Mpiangona",
-    icon: (
-      <ArgonBox component="i" color="warning" fontSize="14px" className="ni ni-single-02" />
-    ),
-    component: <GestionMpiangona />,
-  },
+  // {
+  //   type: "route",
+  //   name: "Distribution Dekonina",
+  //   key: "Distribution",
+  //   route: "/Distribution",
+  //   icon: (
+  //     <ArgonBox component="i" color="warning" fontSize="14px" className="ni ni-settings" />
+  //   ),
+  //   component: <Distribution />,
+  // },
+  // {
+  //   type: "route",
+  //   name: "Gestion Mpiangona",
+  //   key: "Gestion-Mpiangona",
+  //   route: "/Gestion-Mpiangona",
+  //   icon: (
+  //     <ArgonBox component="i" color="warning" fontSize="14px" className="ni ni-single-02" />
+  //   ),
+  //   component: <GestionMpiangona />,
+  // },
   // {
   //   type: "route",
   //   name: "Dashboard",
@@ -72,23 +91,6 @@ const routes = [
   //   icon: <ArgonBox component="i" color="success" fontSize="14px" className="ni ni-credit-card" />,
   //   component: <Billing />,
   // },
-  // {
-  //   type: "route",
-  //   name: "Virtual Reality",
-  //   key: "virtual-reality",
-  //   route: "/virtual-reality",
-  //   icon: <ArgonBox component="i" color="info" fontSize="14px" className="ni ni-app" />,
-  //   component: <VirtualReality />,
-  // },
-  // {
-  //   type: "route",
-  //   name: "RTL",
-  //   key: "rtl",
-  //   route: "/rtl",
-  //   icon: <ArgonBox component="i" color="error" fontSize="14px" className="ni ni-world-2" />,
-  //   component: <RTL />,
-  // },
-  // { type: "title", title: "Account Pages", key: "account-pages" },
   // {
   //   type: "route",
   //   name: "Profile",

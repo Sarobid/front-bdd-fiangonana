@@ -1,8 +1,7 @@
 {
   "name": "FJKM Isotry Fitiavana",
   "version": "3.0.1",
-  "homepage": "https://sarobid.github.io/front-bdd-fiangonana/front/",
-  "author": "sarobidy",
+  "author": "Creative Tim",
   "license": "SEE LICENSE IN <https://www.creative-tim.com/license>",
   "description": "React version of Argon Dashboard 2 by Creative Tim",
   "bugs": {
@@ -52,8 +51,6 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -89,7 +86,6 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
-    "gh-pages": "^6.2.0",
     "prettier": "2.8.8"
   },
   "overrides": {

@@ -12,11 +12,29 @@ const mpiangonaServ = {
         console.log("data "+colonne,data)
         return data.data;
     },
+    getDeatilsMpiangona : async (id)=>{
+        let data = await axios.get(url.urlHtpp+"/mpiangona/"+id)
+        console.log("data ",data)
+        return data.data;
+    },
     getAllMpiangona : (data,num,pageSize,traiteSucces,traiteError)=>{
         if(num <= 0){
             num=1;
         }
         axios.post(url.urlHtpp+"/mpiangonas/"+num+"/"+pageSize, data)
+        .then(response=>{
+            console.log("liste mpiangona",response.data)
+            traiteSucces(response.data.data,response.data.totalPage);
+        }).catch(error=>{
+            console.log("error-liste",error)
+            traiteError(error)
+        })
+    },
+    getAllDekoninaMpiahy : (data,num,pageSize,traiteSucces,traiteError)=>{
+        if(num <= 0){
+            num=1;
+        }
+        axios.post(url.urlHtpp+"/mpiangonas/dekonina/"+num+"/"+pageSize, data)
         .then(response=>{
             console.log("liste mpiangona",response.data)
             traiteSucces(response.data.data,response.data.totalPage);
